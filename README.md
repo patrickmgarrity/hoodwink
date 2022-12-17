@@ -1,16 +1,29 @@
-**What is Project Hoodwink?**
+**How to Use Hoodwink?**
+This project currently provides python scripts that uses authentication logs to calculate the number of unique active users that log into your SaaS applications over the last 180-days. The scripts generate a list that allows you to better understand your SaaS licensing needs.
 
-💰 Python scripts built using AI to save the world billions! 💰
+**The Security Use Case for Hoodwink** 
+We believe these assessment tools could also be used for assessing active user counts and auditing provisioned users to provide least priveledged access. It's connonly a best practice to remove users from a service that they do not need or use.
 
-Hoodwink gives visibility into your SaaS application adoption in minutes, providing you with a list of applications and active users to help right size your licensing while increasing your security.
+**hoodwink-duo**
+Step 1: Access your Duo Security console 
+Step 2: Access Reports>Authentication Log
+Step 3: Set the time range to "Last 180 days" and Export to JSON
+Step 4: Download and open hoodwink-duo.py 
+Step 5: Modify 'insert-your-log-filename.json' to the name of the downloaded JSON file 
+Step 6: Run hoodwink-duo.py w/ the JSON in the same folder
 
-**What is the inspiration behing Project Hoodwink?**
+Upon Success You Should See a List Print Out of Unique Users for each integration
 
-Recently I noticed in a SaaS account that we were paying for a lot of users that weren't even using the service. 
+**hoodwink-okta**
+Coming Soon...
 
-Over the past decade organizations have scaled to meet demand while adopting newer SaaS based technologies. Organizations now have a large footprint of SaaS applications often surpassing 100’s of apps such as Microsoft Office 365, Zoom, Salesforce, Hubspot and Atlassian. These applications come with a large bill that has all too often gone unchecked with the pervasive economic growth experienced in the last decade. The challenge is that most SaaS subscriptions are purchased with the intent of making applications accessible to all resulting in a significant increase in unnecessary cost due to purchasing licenses that continue to go unused.
+**hoodwink-azure**
+Coming Soon...
 
-It’s time to take back the SaaS tax resulting from unused licensing and premium upsells and reduce our costs from bloated SaaS spending. Welcome to Hoodwink!
+**Considerations**
+This project is based on a theory that I am in the process of validating. I expect the results might require modifications of the scrips I am building and I plan to re-iterate on them over time. Everyone is welcome to help contribute to this project. 
+
+The Duo script is likely most valuable if you used Duo SSO for SaaS applications. 
 
 **Discloser**
-I am not a developer... These scripts are created using ChatGPL and have only been tested by me at this time.
+I am not a developer... These scripts are created using ChatGPL and have only been tested by me at this time. Please feel free to double check my work and provide feedback at https://www.linkedin.com/in/patrickmgarrity/
