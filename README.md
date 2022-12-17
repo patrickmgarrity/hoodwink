@@ -1,7 +1,9 @@
 **How to Use Hoodwink?**
+
 This project currently provides python scripts that uses authentication logs to calculate the number of unique active users that log into your SaaS applications over the last 180-days. The scripts generate a list that allows you to better understand your SaaS licensing needs.
 
 **The Security Use Case for Hoodwink** 
+
 We believe these assessment tools could also be used for assessing active user counts and auditing provisioned users to provide least priveledged access. It's connonly a best practice to remove users from a service that they do not need or use.
 
 **hoodwink-duo**
@@ -15,9 +17,11 @@ We believe these assessment tools could also be used for assessing active user c
 Upon Success You Should See a List Print Out of Unique Users for each integration
 
 **hoodwink-okta**
+
 Coming Soon...
 
 **hoodwink-azure**
+
 Coming Soon...
 
 **Considerations**
