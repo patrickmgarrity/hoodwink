@@ -25,4 +25,5 @@ Coming Soon...
 - The Duo script is likely most valuable if you use Duo SSO for SaaS applications. 
 
 **Discloser**
+
 I am not a developer... These scripts are created using ChatGPL and have only been tested by me at this time. Please feel free to double check my work and provide feedback at https://www.linkedin.com/in/patrickmgarrity/
