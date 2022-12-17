@@ -4,7 +4,7 @@ This project currently provides python scripts that uses authentication logs to 
 
 **The Security Use Case for Hoodwink** 
 
-We believe these assessment tools could also be used for assessing active user counts and auditing provisioned users to provide least priveledged access. It's connonly a best practice to remove users from a service that they do not need or use.
+We believe these assessment tools could also be used for assessing active user counts and auditing provisioned users to provide least priveledged access. It's commonly a best practice to remove users from a service that they do not need or use.
 
 **How to use hoodwink-duo**
 1. Access your Duo Security console 
