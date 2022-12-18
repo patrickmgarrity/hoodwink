@@ -29,7 +29,7 @@ Hoodwink Duo Bypass uses Duo Security authentication logs to identify users that
 
 **How to use hoodwink-duo-sms-users**
 
-Hoodwink Duo SMS Users uses Duo Security authentication logs to identify users that successfully authenticated using the SMS authentication method. Using SMS for MFA is against best practices and we strongly recommend disabling SMS authentication in Duo Security's global policy. But before you do, this script will help assess what users will be impacted.
+Hoodwink Duo SMS Users uses Duo Security authentication logs to identify users that successfully authenticated using the SMS authentication method. Using SMS for MFA is against best practices and we strongly recommend disabling SMS authentication in [Duo Security's global policy settings](https://duo.com/docs/policy#authentication-methods). But before you do, this script will help assess what users will be impacted.
 
 1. Access your Duo Security console 
 2. Access Reports>Authentication Log
