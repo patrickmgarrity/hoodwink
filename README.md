@@ -1,6 +1,6 @@
 **How to Use Hoodwink?**
 
-This project currently provides python scripts that use authentication logs to calculate the number of unique active users that log into your SaaS applications over the last 180-days. The scripts generate a list that allows you to better understand your SaaS licensing needs.
+This project currently provides python scripts that use authentication logs to calculate the number of unique active users that log into your SaaS applications over the last 180-days. The scripts generate a list that allows you to better understand your SaaS licensing and security needs.
 
 **The Security Use Case for Hoodwink** 
 
