@@ -10,7 +10,7 @@ unique_usernames = set()
 # Iterate through the data
 for item in data["data"]:
   # Check if the result is successful and if the reason is either "Bypass Status" or "Bypass Code"
-  if item["Result"] == "SUCCESS" and (item["Factor"] == "Bypass Status" or item["Factor"] == "Bypass Code"):
+  if item["Result"] == "SUCCESS" and (item["Factor"] == "SMS Passcode"):
     # Add the username to the set of unique usernames
     unique_usernames.add(item["User"])
 
