@@ -3,8 +3,7 @@
 This project currently provides python scripts that use authentication logs to calculate the number of unique active users that log into your SaaS applications over the last 180-days. The scripts generate a list that allows you to better understand your SaaS licensing needs.
 
 **The Security Use Case for Hoodwink** 
-
-We believe these assessment tools could also be used for assessing active user counts and auditing provisioned users to provide least priveledged access. It's commonly a best practice to remove users from a service that they do not need or use.
+SaaS applications are frequently provisioned with overly broad access. By aligning with the principals of least priveledged access, you can identify where there is application level opportunity to prune unused user accounts.
 
 **How to use hoodwink-duo**
 1. Access your Duo Security console 
