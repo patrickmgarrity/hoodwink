@@ -66,4 +66,4 @@ Coming Soon...
 
 **Discloser**
 
-I am not a developer... These scripts are created using ChatGPL and have only been tested by me at this time. I take no responsibility. Please feel free to double check my work and provide feedback at https://www.linkedin.com/in/patrickmgarrity/
+I am not a developer... These scripts are created using ChatGPL and have only been tested by me at this time. I take no responsibility for the accuracy of these scripts. Please feel free to double check my work and provide feedback at https://www.linkedin.com/in/patrickmgarrity/
