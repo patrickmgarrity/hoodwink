@@ -11,16 +11,25 @@ We believe these assessment tools could also be used for assessing active user c
 2. Access Reports>Authentication Log
 3. Set the time range to "Last 180 days" and Export to JSON
 4. Download and open hoodwink-duo.py 
-5. Modify 'insert-your-log-filename.json' to the name of the downloaded JSON file 
+5. Open hoodwink-duo.py and modify 'insert-your-log-filename.json' to the name of the downloaded JSON file 
 6. Run hoodwink-duo.py w/ the JSON in the same folder
 
 Upon Success You Should See a List Print Out of Unique Users for each integration
 
-**hoodwink-okta**
+**How to use hoodwink-okta**
+
+1. Access your Okta Admin console 
+2. Access Reports>Application Usage
+3. Set the time range to 180+ days and click the "Request report" button
+4. Check your email for the report link and download the csv 
+5. Open hoodwink-duo.py and modify 'insert-your-log-filename.csv' to the name of the downloaded CSV file 
+6. Run hoodwink-duo.py w/ the JSON in the same folder
+
+**hoodwink-azure-ad**
 
 Coming Soon...
 
-**hoodwink-azure**
+**hoodwink-google-workspace**
 
 Coming Soon...
 
@@ -30,4 +39,4 @@ Coming Soon...
 
 **Discloser**
 
-I am not a developer... These scripts are created using ChatGPL and have only been tested by me at this time. Please feel free to double check my work and provide feedback at https://www.linkedin.com/in/patrickmgarrity/
+I am not a developer... These scripts are created using ChatGPL and have only been tested by me at this time. I take no responsibility. Please feel free to double check my work and provide feedback at https://www.linkedin.com/in/patrickmgarrity/
