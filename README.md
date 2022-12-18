@@ -7,6 +7,9 @@ This project currently provides python scripts that use authentication logs to c
 SaaS applications are frequently provisioned with overly broad access. By aligning with the principals of least priveledged access, you can identify where there is application level opportunity to prune unused user accounts.
 
 **How to use hoodwink-duo**
+
+Hoodwink Duo uses Duo Security authentication logs to identify how many unique active users accessed an application in the past 180-days. This information can be used to help right size your SaaS licensing and determine how many users actually need access to an application. 
+
 1. Access your Duo Security console 
 2. Access Reports>Authentication Log
 3. Set the time range to "Last 180 days" and Export to JSON
@@ -39,6 +42,8 @@ Hoodwink Duo SMS Users uses Duo Security authentication logs to identify users t
 6. Run hoodwink-duo-sms-users.py w/ the JSON file in the same folder
 
 **How to use hoodwink-okta**
+
+Hoodwink Okta uses Okta authentication logs to identify how many unique active users accessed an application in the past 180-days. This information can be used to help right size your SaaS licensing and determine how many users actually need access to an application. 
 
 1. Access your Okta Admin console 
 2. Access Reports>Application Usage
