@@ -11,7 +11,7 @@ SaaS applications are frequently provisioned with overly broad access. By aligni
 3. Set the time range to "Last 180 days" and Export to JSON
 4. Download and open hoodwink-duo.py 
 5. Open hoodwink-duo.py and modify 'insert-your-log-filename.json' to the name of the downloaded JSON file 
-6. Run hoodwink-duo.py w/ the JSON in the same folder
+6. Run hoodwink-duo.py w/ the JSON file in the same folder
 
 Upon Success You Should See a List Print Out of Unique Users for each integration
 
@@ -22,7 +22,17 @@ Upon Success You Should See a List Print Out of Unique Users for each integratio
 3. Set the time range to 180+ days and click the "Request report" button
 4. Check your email for the report link and download the csv 
 5. Open hoodwink-duo.py and modify 'insert-your-log-filename.csv' to the name of the downloaded CSV file 
-6. Run hoodwink-duo.py w/ the JSON in the same folder
+6. Run hoodwink-duo.py w/ the JSON file in the same folder
+
+**How to use hoodwink-duo-bypass**
+Hoodwink Duo Bypass uses Duo Security authentication logs to identify users that successfully authenticated using a bypass authentication method. Bypassing MFA is against best practices and when used often goes forgotten. Quickly identify which users are bypassing MFA so you can take action.
+
+1. Access your Duo Security console 
+2. Access Reports>Authentication Log
+3. Set the time range to "Last 180 days" and Export to JSON
+4. Download and open hoodwink-duo-bypass.py 
+5. Open hoodwink-duo-byass.py and modify 'insert-your-log-filename.json' to the name of the downloaded JSON file 
+6. Run hoodwink-duo-bypass.py w/ the JSON file in the same folder
 
 **hoodwink-azure-ad**
 
