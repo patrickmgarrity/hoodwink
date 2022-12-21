@@ -3,6 +3,7 @@ import csv
 # Initialize a dictionary to store the count of "SUCCESS" results per country
 success_counts = {}
 
+
 # Open the csv file and read it using the csv module
 with open('insert-your-log-filename.csv', 'r') as f:
     reader = csv.reader(f)
@@ -13,8 +14,9 @@ with open('insert-your-log-filename.csv', 'r') as f:
         # Get the value for the "outcome.result" column and the "client.geographical_context.country" column
         result = row[6]
         country = row[24]
-        # If the result is "SUCCESS", increment the count for the corresponding country
-        if result == 'SUCCESS':
+        transactionType = row[30]
+        # If the result is "SUCCESS" and transactionType is WEB, this indicates a user authentication and increments the count for the corresponding country
+        if result == 'SUCCESS' and transactionType == "WEB":
             if country in success_counts:
                 success_counts[country] += 1
             else:

@@ -49,8 +49,8 @@ Hoodwink Okta uses Okta authentication logs to identify how many unique active u
 2. Access Reports>Application Usage
 3. Set the time range to 180+ days and click the "Request report" button
 4. Check your email for the report link and download the csv 
-5. Open hoodwink-duo.py and modify 'insert-your-log-filename.csv' to the name of the downloaded CSV file 
-6. Run hoodwink-duo.py w/ the JSON CSV in the same folder
+5. Open hoodwink-okta.py and modify 'insert-your-log-filename.csv' to the name of the downloaded CSV file 
+6. Run hoodwink-okta.py w/ the JSON CSV in the same folder
 
 **How to use hoodwink-okta-country**
 
@@ -59,8 +59,8 @@ Hoodwink Okta Country uses Okta authentication logs to identify how many success
 1. Access your Okta Admin console 
 2. Access Reports>System Log
 3. Set the time range to 180+ days and click the "Download CSV" link 
-5. Open hoodwink-duo-country.py and modify 'insert-your-log-filename.csv' to the name of the downloaded CSV file 
-6. Run hoodwink-duo-country.py w/ the CSV file in the same folder
+5. Open hoodwink-okta-country.py and modify 'insert-your-log-filename.csv' to the name of the downloaded CSV file 
+6. Run hoodwink-okta-country.py w/ the CSV file in the same folder
 
 
 **hoodwink-azure-ad**
