@@ -34,5 +34,5 @@ for log in logs['data']:
             active_users_per_integration[integration] = {user_id: 1}
 
 # Print the number of unique users per integration
-for integration, user_ids in active_users_per_integration.items():
+for integration, user_ids in sorted(active_users_per_integration.items()):
     print(f'{integration}: {len(user_ids)} unique users')
