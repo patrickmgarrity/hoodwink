@@ -20,6 +20,9 @@ with open('insert-your-log-filename.csv', 'r') as f:
             else:
                 success_counts[country] = 1
 
+# Sort the list of countries by the number of "SUCCESS" results
+sorted_countries = sorted(success_counts.items(), key=lambda x: x[1], reverse=True)
+
 # Print the success counts for each country
-for country, count in success_counts.items():
+for country, count in sorted_countries:
     print(f'{country}: {count}')
