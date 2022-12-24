@@ -30,4 +30,4 @@ for entry in data:
 for app_id, user_set in user_sets.items():
     app_display_name = app_names[app_id]
     count = len(user_set)
-    print(f'{app_display_name}: {count} unique userPrincipalName values')
+    print(f'{app_display_name}: {count} unique users')
