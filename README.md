@@ -6,6 +6,10 @@ This project currently provides python scripts that generate lists that allow yo
 
 SaaS applications are frequently provisioned with overly broad access. By aligning with the principals of least priveledged access, you can identify where there is opportunity to prune unused user accounts and application access.
 
+[**Hoodwink for Azure**](https://github.com/patrickmgarrity/hoodwink/tree/main/Azure)
+
+- [hoodwink-azure.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Azure/hoodwink-azure.py) - Identify how many unique users accessed an application.
+
 [**Hoodwink for Duo Security**](https://github.com/patrickmgarrity/hoodwink/tree/main/Duo%20Security)
 
 - [hoodwink-duo.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo.py) - Identify how many unique unique users accessed an application in the past 180-days.
@@ -17,10 +21,6 @@ SaaS applications are frequently provisioned with overly broad access. By aligni
 
 - [hoodwink-okta.py](https://github.com/patrickmgarrity/hoodwink/blob/main/OKTA/hoodwink-okta.py) - Identify how many unique unique users accessed an application.
 - [hoodwink-okta-country.py](https://github.com/patrickmgarrity/hoodwink/blob/main/OKTA/hoodwink-okta-country.py) - Identify which countries users are accessing applications from.
-
-[**Hoodwink for Azure**](https://github.com/patrickmgarrity/hoodwink/tree/main/Azure)
-
-- [hoodwink-azure.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Azure/hoodwink-azure.py) - Identify how many unique users accessed an application.
 
 **hoodwink-google-workspace**
 
