@@ -1,10 +1,10 @@
 **How to Use Hoodwink?**
 
-Project Hoodwink provides visibility into SaaS usage enabling you to better understand your SaaS licensing needs and better implement cybersecurity best practices.
+Project Hoodwink provides visibility and insights into SaaS applications so you can make better SaaS licensing decisions and implement cybersecurity best practices such as least priveledged access.
 
 **The Security Use Case for Hoodwink** 
 
-SaaS applications are frequently provisioned with overly broad access. By aligning with the principals of least priveledged access, you can identify opportunity to prune unnecessary user account and application access.
+SaaS applications are frequently provisioned with overly broad access. By aligning with the principals of least priveledged access, hoodwink helps you identify opportunities to prune unnecessary application access.
 
 [**Hoodwink for Azure**](https://github.com/patrickmgarrity/hoodwink/tree/main/Azure)
 
@@ -12,14 +12,14 @@ SaaS applications are frequently provisioned with overly broad access. By aligni
 
 [**Hoodwink for Duo Security**](https://github.com/patrickmgarrity/hoodwink/tree/main/Duo%20Security)
 
-- [hoodwink-duo.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo.py) - Identify how many unique unique users accessed an application in the past 180-days.
+- [hoodwink-duo.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo.py) - Identify how many unique users accessed an application in the past 180-days.
 - [hoodwink-duo-sms-users.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo-sms-users.py) - Identify users that use SMS authentication for MFA.
 - [hoodwink-duo-bypass.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo-bypass.py) - Identify user accounts that have recently bypassed MFA.
 - [hoodwink-duo-country.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo-country.py) - Identify which countries users are accessing applications from.
 
 [**Hoodwink for Okta**](https://github.com/patrickmgarrity/hoodwink/tree/main/OKTA)
 
-- [hoodwink-okta.py](https://github.com/patrickmgarrity/hoodwink/blob/main/OKTA/hoodwink-okta.py) - Identify how many unique unique users accessed an application.
+- [hoodwink-okta.py](https://github.com/patrickmgarrity/hoodwink/blob/main/OKTA/hoodwink-okta.py) - Identify how many unique users accessed an application.
 - [hoodwink-okta-country.py](https://github.com/patrickmgarrity/hoodwink/blob/main/OKTA/hoodwink-okta-country.py) - Identify which countries users are accessing applications from.
 
 **hoodwink-google-workspace**
@@ -27,8 +27,8 @@ SaaS applications are frequently provisioned with overly broad access. By aligni
 Coming Soon...
 
 **Considerations**
-- This project is based on a theory that I am in the process of validating. I expect the results might require modifications of the scrips I am building and I plan to re-iterate on them over time. Everyone is welcome to help contribute to this project. 
-- The Duo script is likely most valuable if you use Duo SSO for SaaS applications. 
+
+- This project is based on a theory that authentication logs can be used to make better decisions about SaaS licensing while helping organizations implement least stronger access controls. Based on community contributed feedback, we plan to re-iterate and develop new scripts over time. Everyone is welcome to help contribute to this project. 
 
 **Discloser**
 
