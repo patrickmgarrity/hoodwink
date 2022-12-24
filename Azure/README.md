@@ -32,3 +32,5 @@ Step 8: Run hoodwink-azure.py w/ the JSON CSV in the same folder
 
 **Example Results**
 A list will print with the number of Unique Users for each application.
+
+![Azure AD Example Output](https://github.com/patrickmgarrity/hoodwink/blob/main/Azure/readme-images/example-azure-ad-output.png)
