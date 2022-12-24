@@ -1,7 +1,9 @@
 **hoodwink-azure**
-Hoodwink Azure uses Azure AD authentication logs to identify how many unique active users accessed an application over the time defined. This information can be used to help right size your SaaS licensing and determine how many users actually need access to an application. 
+
+Hoodwink Azure uses Azure AD authentication logs to identify how many unique active users accessed each SaaS application. This information can be used to help right size your SaaS licensing and determine how many users actually need access to an application. 
 
 1. Access your Microsoft Azure Console
+
 2. Open Azure Active Directory
 
 ![Azure AD](https://github.com/patrickmgarrity/hoodwink/blob/main/Azure/readme-images/azure-ad.png)
