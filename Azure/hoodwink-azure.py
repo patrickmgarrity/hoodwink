@@ -1,7 +1,7 @@
 import json
 
 # Load the JSON data from the file
-with open('insert-your-log-filename.json.json', 'r') as f:
+with open('insert-your-log-filename.json', 'r') as f:
     data = json.load(f)
 
 # Create a dictionary to store the sets of unique userPrincipalName values
