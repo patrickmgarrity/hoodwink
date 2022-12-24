@@ -1,4 +1,4 @@
-**hoodwink-azure**
+**Hoodwink Azure Overview**
 
 Hoodwink Azure uses Azure AD authentication logs to identify how many unique active users accessed each SaaS application. This information can be used to help right size your SaaS licensing and determine how many users actually need access to an application. 
 
