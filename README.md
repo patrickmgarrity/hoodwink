@@ -6,75 +6,25 @@ This project currently provides python scripts that generate lists that allow yo
 
 SaaS applications are frequently provisioned with overly broad access. By aligning with the principals of least priveledged access, you can identify where there is opportunity to prune unused user accounts and application access.
 
-**How to use hoodwink-duo**
+[**Hoodwink for Duo Security**](https://github.com/patrickmgarrity/hoodwink/tree/main/Duo%20Security)
 
-Hoodwink Duo uses Duo Security authentication logs to identify how many unique active users accessed an application in the past 180-days. This information can be used to help right size your SaaS licensing and determine how many users actually need access to an application. 
 
-1. Access your Duo Security console 
-2. Access Reports>Authentication Log
-3. Set the time range to "Last 180 days" and Export to JSON
-4. Download and open hoodwink-duo.py 
-5. Open hoodwink-duo.py and modify 'insert-your-log-filename.json' to the name of the downloaded JSON file 
-6. Run hoodwink-duo.py w/ the JSON file in the same folder
+- [hoodwink-duo.py] (https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo.py) - Identify how many unique active users accessed an application in the past 180-days.
+- [hoodwink-duo-sms-users.py] (https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo-sms-users.py) - Identify users that use SMS authentication for MFA.
+- [hoodwink-duo-bypass.py] (https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo-bypass.py) - Identify user accounts that have recently bypassed MFA.
+- [hoodwink-duo-country.py] (https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo-country.py) - 
 
-Upon Success You Should See a List Print Out of Unique Users for each integration
 
-**How to use hoodwink-duo-bypass**
-
-Hoodwink Duo Bypass uses Duo Security authentication logs to identify users that successfully authenticated using a bypass authentication method. Bypassing MFA is against best practices and when used often goes forgotten. Quickly identify which users are bypassing MFA so you can take action.
-
-1. Access your Duo Security console 
-2. Access Reports>Authentication Log
-3. Set the time range to "Last 180 days" and Export to JSON
-4. Download and open hoodwink-duo-bypass.py 
-5. Open hoodwink-duo-bypass.py and modify 'insert-your-log-filename.json' to the name of the downloaded JSON file 
-6. Run hoodwink-duo-bypass.py w/ the JSON file in the same folder
-
-**How to use hoodwink-duo-sms-users**
-
-Hoodwink Duo SMS Users uses Duo Security authentication logs to identify users that successfully authenticated using the SMS authentication method. Using SMS for MFA is against best practices and we strongly recommend disabling SMS authentication in [Duo Security's global policy settings](https://duo.com/docs/policy#authentication-methods). But before you do, this script will help assess what users will be impacted.
-
-1. Access your Duo Security console 
-2. Access Reports>Authentication Log
-3. Set the time range to "Last 180 days" and Export to JSON
-4. Download and open hoodwink-duo-sms-users.py 
-5. Open hoodwink-duo-sms-users.py and modify 'insert-your-log-filename.json' to the name of the downloaded JSON file 
-6. Run hoodwink-duo-sms-users.py w/ the JSON file in the same folder
-
-**How to use hoodwink-okta**
+**hoodwink-okta**
 
 Hoodwink Okta uses Okta authentication logs to identify how many unique active users accessed an application in the past 180-days. This information can be used to help right size your SaaS licensing and determine how many users actually need access to an application. 
-
-1. Access your Okta Admin console 
-2. Access Reports>Application Usage
-3. Set the time range to 180+ days and click the "Request report" button
-4. Check your email for the report link and download the csv 
-5. Open hoodwink-okta.py and modify 'insert-your-log-filename.csv' to the name of the downloaded CSV file 
-6. Run hoodwink-okta.py w/ the CSV in the same folder
 
 **How to use hoodwink-okta-country**
 
 Hoodwink Okta Country uses Okta authentication logs to identify how many successful authentication attempts have been successful per country. This information can be used to identify where users are logging in from which could help identify risky or malicious access to systems. 
 
-1. Access your Okta Admin console 
-2. Access Reports>System Log
-3. Set the time range to 180+ days and click the "Download CSV" link 
-5. Open hoodwink-okta-country.py and modify 'insert-your-log-filename.csv' to the name of the downloaded CSV file 
-6. Run hoodwink-okta-country.py w/ the CSV file in the same folder
-
-
 **hoodwink-azure**
 Hoodwink Azure uses Azure AD authentication logs to identify how many unique active users accessed an application over the time defined. This information can be used to help right size your SaaS licensing and determine how many users actually need access to an application. 
-
-1. Access your Microsoft Azure Console
-2. Open Azure Active Directory
-3. Under monitoring click Sign-in logs
-3. Set your desired time
-4. Click Download > Download JSON
-5. Download the Interactive Signons
-6. Open hoodwink-okta.py and modify 'insert-your-log-filename.json' to the name of the downloaded JSON file 
-7. Run hoodwink-azure.py w/ the JSON CSV in the same folder
-
 
 **hoodwink-google-workspace**
 
