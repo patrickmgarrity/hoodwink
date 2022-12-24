@@ -50,7 +50,7 @@ Hoodwink Okta uses Okta authentication logs to identify how many unique active u
 3. Set the time range to 180+ days and click the "Request report" button
 4. Check your email for the report link and download the csv 
 5. Open hoodwink-okta.py and modify 'insert-your-log-filename.csv' to the name of the downloaded CSV file 
-6. Run hoodwink-okta.py w/ the JSON CSV in the same folder
+6. Run hoodwink-okta.py w/ the CSV in the same folder
 
 **How to use hoodwink-okta-country**
 
@@ -63,9 +63,18 @@ Hoodwink Okta Country uses Okta authentication logs to identify how many success
 6. Run hoodwink-okta-country.py w/ the CSV file in the same folder
 
 
-**hoodwink-azure-ad**
+**hoodwink-azure**
+Hoodwink Azure uses Azure AD authentication logs to identify how many unique active users accessed an application over the time defined. This information can be used to help right size your SaaS licensing and determine how many users actually need access to an application. 
 
-Coming Soon...
+1. Access your Microsoft Azure Console
+2. Open Azure Active Directory
+3. Under monitoring click Sign-in logs
+3. Set your desired time
+4. Click Download > Download JSON
+5. Download the Interactive Signons
+6. Open hoodwink-okta.py and modify 'insert-your-log-filename.json' to the name of the downloaded JSON file 
+7. Run hoodwink-azure.py w/ the JSON CSV in the same folder
+
 
 **hoodwink-google-workspace**
 
