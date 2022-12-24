@@ -1,10 +1,10 @@
 **How to Use Hoodwink?**
 
-This project currently provides python scripts that generate lists that allow you to better understand your SaaS licensing and help implement security needs.
+This project currently provides python scripts that generate lists that allow you to better understand your SaaS licensing and help implement security best practices.
 
 **The Security Use Case for Hoodwink** 
 
-SaaS applications are frequently provisioned with overly broad access. By aligning with the principals of least priveledged access, you can identify where there is application level opportunity to prune unused user accounts.
+SaaS applications are frequently provisioned with overly broad access. By aligning with the principals of least priveledged access, you can identify where there is opportunity to prune unused user accounts and application access.
 
 **How to use hoodwink-duo**
 
