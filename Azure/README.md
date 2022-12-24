@@ -30,4 +30,5 @@ Step 7: Open hoodwink-azure.py and modify 'insert-your-log-filename.json' to the
 
 Step 8: Run hoodwink-azure.py w/ the JSON CSV in the same folder
 
+**Example Results**
 A list will print with the number of Unique Users for each application.
