@@ -8,23 +8,19 @@ SaaS applications are frequently provisioned with overly broad access. By aligni
 
 [**Hoodwink for Duo Security**](https://github.com/patrickmgarrity/hoodwink/tree/main/Duo%20Security)
 
-
-- [hoodwink-duo.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo.py) - Identify how many unique active users accessed an application in the past 180-days.
+- [hoodwink-duo.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo.py) - Identify how many unique unique users accessed an application in the past 180-days.
 - [hoodwink-duo-sms-users.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo-sms-users.py) - Identify users that use SMS authentication for MFA.
 - [hoodwink-duo-bypass.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo-bypass.py) - Identify user accounts that have recently bypassed MFA.
-- [hoodwink-duo-country.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo-country.py) - 
+- [hoodwink-duo-country.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo-country.py) - Identify which countries users are accessing applications from.
 
+[**Hoodwink for Okta**](https://github.com/patrickmgarrity/hoodwink/tree/main/OKTA)
 
-**hoodwink-okta**
+- [hoodwink-okta.py](https://github.com/patrickmgarrity/hoodwink/blob/main/OKTA/hoodwink-okta.py) - Identify how many unique unique users accessed an application.
+- [hoodwink-okta-country.py](https://github.com/patrickmgarrity/hoodwink/blob/main/OKTA/hoodwink-okta-country.py) - Identify which countries users are accessing applications from.
 
-Hoodwink Okta uses Okta authentication logs to identify how many unique active users accessed an application in the past 180-days. This information can be used to help right size your SaaS licensing and determine how many users actually need access to an application. 
+[**Hoodwink for Azure**](https://github.com/patrickmgarrity/hoodwink/tree/main/Azure)
 
-**How to use hoodwink-okta-country**
-
-Hoodwink Okta Country uses Okta authentication logs to identify how many successful authentication attempts have been successful per country. This information can be used to identify where users are logging in from which could help identify risky or malicious access to systems. 
-
-**hoodwink-azure**
-Hoodwink Azure uses Azure AD authentication logs to identify how many unique active users accessed an application over the time defined. This information can be used to help right size your SaaS licensing and determine how many users actually need access to an application. 
+- [hoodwink-azure.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Azure/hoodwink-azure.py) - Identify how many unique users accessed an application.
 
 **hoodwink-google-workspace**
 
