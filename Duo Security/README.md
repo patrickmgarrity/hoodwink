@@ -11,6 +11,19 @@ Hoodwink Duo uses Duo Security authentication logs to identify how many unique a
 
 A list will print with the number of Unique Users for each integration. 
 
+ **How to use hoodwink-duo-api**
+
+Hoodwink Duo uses Duo Security's API to collect authentication logs to identify how many unique active users accessed an application in the past 180-days. This information can be used to help right size your SaaS licensing and determine how many users actually need access to an application. 
+
+1. Access your Duo Security console
+2. Add a new application and pick Admin API
+3. Configure the API permissions for only "Grant read log" access
+4. Install the duo_client_python library: $ pip install duo-client
+https://github.com/duosecurity/duo_client_python/blob/master/README.md
+5. Run the hoodwink-duo-api.py script
+
+A list will print with the number of Unique Users for each integration.
+
 **How to use hoodwink-duo-bypass**
 
 Hoodwink Duo Bypass uses Duo Security authentication logs to identify users that successfully authenticated using a bypass authentication method. Bypassing MFA is against best practices and when used often goes forgotten. Quickly identify which users are bypassing MFA so you can take action.
