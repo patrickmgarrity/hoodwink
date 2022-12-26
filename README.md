@@ -8,18 +8,18 @@ SaaS applications are frequently provisioned with overly broad access. By aligni
 
 [**Hoodwink for Azure**](https://github.com/patrickmgarrity/hoodwink/tree/main/Azure)
 
-- [hoodwink-azure.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Azure/hoodwink-azure.py) - Identify how many unique users accessed an application.
+- [hoodwink-azure.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Azure/hoodwink-azure.py) - Identify how many unique users accessed each application.
 
 [**Hoodwink for Duo Security**](https://github.com/patrickmgarrity/hoodwink/tree/main/Duo%20Security)
 
-- [hoodwink-duo.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo.py) - Identify how many unique users accessed an application in the past 180-days.
+- [hoodwink-duo.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo.py) - Identify how many unique users accessed each application in the past 180-days.
 - [hoodwink-duo-sms-users.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo-sms-users.py) - Identify users that use SMS authentication for MFA.
 - [hoodwink-duo-bypass.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo-bypass.py) - Identify user accounts that have recently bypassed MFA.
 - [hoodwink-duo-country.py](https://github.com/patrickmgarrity/hoodwink/blob/main/Duo%20Security/hoodwink-duo-country.py) - Identify which countries users are accessing applications from.
 
 [**Hoodwink for Okta**](https://github.com/patrickmgarrity/hoodwink/tree/main/OKTA)
 
-- [hoodwink-okta.py](https://github.com/patrickmgarrity/hoodwink/blob/main/OKTA/hoodwink-okta.py) - Identify how many unique users accessed an application.
+- [hoodwink-okta.py](https://github.com/patrickmgarrity/hoodwink/blob/main/OKTA/hoodwink-okta.py) - Identify how many unique users accessed each application.
 - [hoodwink-okta-country.py](https://github.com/patrickmgarrity/hoodwink/blob/main/OKTA/hoodwink-okta-country.py) - Identify which countries users are accessing applications from.
 
 **hoodwink-google-workspace**
