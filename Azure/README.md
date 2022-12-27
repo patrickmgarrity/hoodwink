@@ -14,7 +14,7 @@ Step 3: Under monitoring click Sign-in logs
 
 ![Azure AD Sign-in Logs](https://github.com/patrickmgarrity/hoodwink/blob/main/Azure/readme-images/azure-ad-sign-in-logs.png)
 
-Step 4: Set your desired time
+Step 4: Set your desired time which we recommend the maximum Azure will allow you to set up to 90-days
 
 ![Azure AD Date](https://github.com/patrickmgarrity/hoodwink/blob/main/Azure/readme-images/azure-ad-sign-in-logs-date.png)
 
